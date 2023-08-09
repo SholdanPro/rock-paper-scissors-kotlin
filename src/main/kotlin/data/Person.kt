@@ -2,6 +2,9 @@ package data
 
 import kotlin.random.Random
 
+/* Person class take name as constructor & it has makeMove() function
+*  which return one of following 'rock' 'paper' & 'scissor' */
+
 class Person(
         val name: String,
 ) {

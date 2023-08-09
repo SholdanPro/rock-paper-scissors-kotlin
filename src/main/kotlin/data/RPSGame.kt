@@ -2,6 +2,14 @@ package data
 
 import kotlinx.coroutines.delay
 
+/* RPSGame class takes two Person object as players & it's play() function
+*  has RPSGame logic based on players moves.
+*
+* suspend function : coroutine use for delaying of two seconds
+*
+* recursive function : recursive function used for players plays until 'draw'.
+*  */
+
 class RPSGame(
         private val player1: Person,
         private val player2: Person
